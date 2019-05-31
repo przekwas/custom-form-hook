@@ -17,6 +17,8 @@ const Home = () => {
     return (
         <section className="row my-5">
             <article className="col-md-6 offset-md-3">
+            <h1 className="text-center my-5">With Custom Hook</h1>
+
                 <form
                     onSubmit={handleSubmit}
                     className="form-group border border-dark rounded p-3 shadow-lg">
